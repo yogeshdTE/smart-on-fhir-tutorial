@@ -78,11 +78,11 @@
       lname: {value: ''},
       gender: {value: ''},
       birthdate: {value: ''},
-      height: {value: ''},
-      systolicbp: {value: ''},
-      diastolicbp: {value: ''},
-      ldl: {value: ''},
-      hdl: {value: ''},
+      //height: {value: ''},
+      //systolicbp: {value: ''},
+      //diastolicbp: {value: ''},
+      //ldl: {value: ''},
+      //hdl: {value: ''},
     };
   }
 
@@ -121,11 +121,11 @@
     $('#lname').html(p.lname);
     $('#gender').html(p.gender);
     $('#birthdate').html(p.birthdate);
-    $('#height').html(p.height);
-    $('#systolicbp').html(p.systolicbp);
-    $('#diastolicbp').html(p.diastolicbp);
-    $('#ldl').html(p.ldl);
-    $('#hdl').html(p.hdl);
+    //$('#height').html(p.height);
+    //$('#systolicbp').html(p.systolicbp);
+    //$('#diastolicbp').html(p.diastolicbp);
+    //$('#ldl').html(p.ldl);
+    //$('#hdl').html(p.hdl);
   };
 
 })(window);
