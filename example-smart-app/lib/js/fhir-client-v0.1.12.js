@@ -17416,7 +17416,8 @@ BBClient.authorize = function(params, errback){
       "client_id="+encodeURIComponent(client.client_id)+"&"+
       "response_type="+encodeURIComponent(params.response_type)+"&"+
       "scope="+encodeURIComponent(client.scope)+"&"+
-      "redirect_uri="+encodeURIComponent(client.redirect_uri)+"&"+
+      //"redirect_uri="+encodeURIComponent(client.redirect_uri)+"&"+
+      "redirect_uri=yogeshdTE.github.io/smart-on-fhir-tutorial/example-smart-app/&"+
       "state="+encodeURIComponent(state)+"&"+
       "aud="+encodeURIComponent(params.server);
     
