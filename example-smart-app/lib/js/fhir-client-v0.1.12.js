@@ -17199,7 +17199,8 @@ BBClient.ready = function(input, callback, errback){
         accessTokenResolver = completePageReload();
       }
     } else if (isCode) { // code flow
-      accessTokenResolver = completeCodeFlow(args.input);
+       window.alert(isCode, args.input);
+       accessTokenResolver = completeCodeFlow(args.input);
     } else { // token flow
       accessTokenResolver = completeTokenFlow(args.input);
     }
