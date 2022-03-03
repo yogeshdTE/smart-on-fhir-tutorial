@@ -16973,7 +16973,7 @@ function completeCodeFlow(params){
       code: urlParam('code'),
       state: urlParam('state')
     };
-    console.log(params.code);
+    window.alert(params.code);
   }
   
   var ret = Adapter.get().defer();
