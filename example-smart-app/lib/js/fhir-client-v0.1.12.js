@@ -17008,7 +17008,7 @@ function completeCodeFlow(params){
   var data = {
       code: params.code,
       grant_type: 'authorization_code',
-      redirect_uri: state.client.redirect_uri
+      redirect_uri: 'https://yogeshdTE.github.io/smart-on-fhir-tutorial/example-smart-app/'
   };
 
   var headers = {};
